@@ -1,0 +1,27 @@
+name: roadguard_app
+description: "ROADGUARD AI — Real-Time Driver Fatigue Detection and Road Safety Monitoring"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  camera: ^0.10.5+9
+  flutter_tts: ^3.8.5
+  web_socket_channel: ^2.4.1
+  http: ^1.2.0
+  shared_preferences: ^2.2.2
+  intl: ^0.19.0
+  flutter_local_notifications: ^17.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
